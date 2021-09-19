@@ -14,7 +14,7 @@ import javax.servlet.annotation.WebFilter;
  * Servlet Filter implementation class EncodingFilter
  */
 @WebFilter("/*")
-public abstract class EncodingFilter implements Filter {
+public class EncodingFilter implements Filter {
 
     /**
      * Default constructor.
